@@ -1,0 +1,38 @@
+:root {
+  --frequencia: #000000;
+  --nota: #000000;
+  --prova: #000000;  
+}
+
+.titulo_aula {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .lables {
+    display: flex;
+  }
+  
+  .lable-prova,
+  .lable-frequencia,
+  
+  .lable-frequencia {
+    background-color: var(--frequencia);
+  }
+  
+  .lable-nota {
+    background-color: var(--nota);
+  }
+  
+  .p_lable {
+    font-size: 13px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
